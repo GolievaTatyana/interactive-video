@@ -9,14 +9,18 @@
 </head>
 <body>
   <div class="video-wrapper">
-    <video id="video" controls width="850" onended="visibleButtons()">
+    <video id="video" controls width="850">
       <source src="media/video1.mp4" type="video/mp4">
-      <!-- <source src="media/video2.mp4" type="video/mp4"> -->
     </video>
   
-    <div id="btn" class="button-wrapper flex flex-wrap flex-center">
-      <button class="primary-button">way 1</button>
-      <button class="primary-button">way 2</button>
+    <div id="step-1" class="button-wrapper">
+      <button id="way-1" class="primary-button">way 1</button>
+      <button id="way-2" class="primary-button">way 2</button>
+    </div>
+
+    <div id="step-2" class="button-wrapper">
+      <button id="way-3" class="primary-button">way 3</button>
+      <button id="way-4" class="primary-button">way 4</button>
     </div>
   </div>
   

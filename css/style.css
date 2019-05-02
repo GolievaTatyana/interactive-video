@@ -5,20 +5,11 @@ body {
 }
 
 /* supporting */
-.flex {
-  display: flex;
-}
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.flex-center {
-  justify-content: center;
-}
 
 /* custom elements */
 .video-wrapper {
+  position: relative;
   width: 850px;
   margin: 0 auto;
   margin-top: 50px;
@@ -27,13 +18,14 @@ body {
 .button-wrapper {
   position: absolute;
   top: 60%;
-  left: 0;
-  width: 100%;
-  opacity: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  display: none;
 }
 
 .visible {
-  opacity: 1;
+  display: block;
 }
 
 .primary-button {
